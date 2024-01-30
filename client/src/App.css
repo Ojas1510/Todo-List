@@ -1,0 +1,92 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-image: url('https://i.pinimg.com/originals/2a/c4/96/2ac49666b7480c04ceaab0d8e7cbe331.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #051d35;
+  font-weight: bolder;
+}
+
+input {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #d7fbfc;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ba64c0;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+
+.task {
+  background-color: #46d052;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  font-size: 110%;
+  font-weight: bold;
+  color: #0e0b3d;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 18px;
+  color: #01071d;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF; 
+}
+
+.button {
+  margin: 0 10px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #bc33bc;
+  background-color: #ffecf8;
+  border: 1px;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #000000;
+  background-color: #d5afe9;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
